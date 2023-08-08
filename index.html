@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'/>
+    <title>Curency Converter</title>
+    <link rel="icon" type="image/x-icon" href="th.jpg">
+    <link rel="stylesheet" href="curency.css">
+  </head>
+  <body>
+    <div class="header">
+      <h1 class="header-txt">Exchange Your Currency</h1>
+    </div>
+    <h1 class="txt1">Choose The Currencies</h1>
+  <div class="content">
+    <label for="curencys1">From:</label>
+    <select class="Select" name="curencys1" id="curencys1">
+      <option value="USD">USD</option>
+      <option value="SAR">SAR</option>
+      <option value="LBP">LBP</option>
+      <option value="EURO">EURO</option>
+    </select>
+    <label for="curencys2">To:</label>
+    <select class="Select" name="curencys2" id="curencys2">
+      <option value="USD">USD</option>
+      <option value="SAR">SAR</option>
+      <option value="LBP">LBP</option>
+      <option value="EURO">EURO</option>
+    </select>
+    <br>
+    <input type="text" class="textBox" placeholder="Amount">
+    <button class="calculateBtn">Calculate</button>
+    <div class="output"></div>
+  </div>
+    <script src="curency.js"></script>
+  </body>
+</html>
